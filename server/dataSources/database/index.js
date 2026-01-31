@@ -11,6 +11,7 @@ mongoose
       'mongodb://localhost:27017/sivananda-housekeeping',
     {
       useFindAndModify: false,
+      useUnifiedTopology: true,
       useCreateIndex: true,
       useNewUrlParser: true,
     }
